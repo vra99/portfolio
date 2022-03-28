@@ -107,7 +107,7 @@ const Footer = () => {
       <StyledCredit tabindex="-1">
         <a href="https://github.com/vra99">
           <div>Designed &amp; Built by Victor Alvarez</div>
-
+{/* 
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
@@ -119,7 +119,7 @@ const Footer = () => {
                 <span>{githubInfo.forks.toLocaleString()}</span>
               </span>
             </div>
-          )}
+          )} */}
         </a>
       </StyledCredit>
     </StyledFooter>
